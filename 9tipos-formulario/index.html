@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ejemplo de un formulario básico</h1>
+    <form >
+        <label>Nombre: </label><br>
+        <input type="text" name= "buscador" id= "" placeholder="indica tu nombre"><br>
+        <label>Apellido: </label><br>
+        <input type="text" surname= "buscador" id= "" placeholder= "indica tu apellido"><br><br>
+        <label>Escoja su sexo:</label><br>
+        <input type="radio" id="Hombre" name="gender" value="male">
+        <label for="Hombre">Hombre</label><br>
+        <input type="radio" id="Mujer" name="gender" value="female">
+        <label for="Mujer">Mujer</label><br><br>
+        <label>Escoja su clase</label><br>
+        <select name="" id="">
+           <option value="">Guerrero</option>
+           <option value="">Mago</option>
+           <option value="">Pícaro</option>
+           <option value="">Explorador</option>
+           <option value="">Paladín</option>
+        </select><br>
+<button type= "submit">Enviar</button><br><br>
+    </form>
+ 
+    <form action="">
+        <label for="">formulario con datalist</label><br><br>
+        <label for="Escoja su origen">Escoja su origen:</label>
+        <input list="razas"/>
+        <datalist id="razas">
+            <option value="Humano"></option>
+            <option value="Elfo"></option>
+            <option value="Enano"></option>
+            <option value="Mediano"></option>
+            <option value="Animántropo"></option>
+        </datalist>
+    </form>
+        
+      
+    
+
+
+</body>
+</html>
